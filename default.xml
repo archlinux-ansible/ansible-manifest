@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="ansible"
+          alias="origin"
+          fetch="ssh://git@github.com/archlinux-ansible"
+          revision="master" />
+
+  <default remote="ansible" sync-j="11"/>
+
+  <project path="." name="ansible-site"/>
+  <project path="roles/chezmoi" name="ansible-arch_chezmoi"/>
+  <project path="roles/dracut" name="ansible-dracut"/>
+  <project path="roles/gitconfig" name="ansible-gitconfig"/>
+  <project path="roles/group_membership" name="ansible-group_membership"/>
+  <project path="roles/nvim" name="ansible-arch_nvim"/>
+  <project path="roles/packages" name="ansible-arch_packages"/>
+  <project path="roles/plymouth" name="ansible-plymouth"/>
+  <project path="roles/sddm" name="ansible-arch_sddm"/>
+  <project path="roles/services" name="ansible-arch_services"/>
+  <project path="roles/shell_profile" name="ansible-shell_profile"/>
+
+</manifest>
