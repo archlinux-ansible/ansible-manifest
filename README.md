@@ -14,3 +14,9 @@ $ repo init \
   -m default.xml \
   -b master
 ```
+
+To check out master branch for all repos (avoiding detached HEAD):
+
+```shell
+$ repo start master --all
+```
