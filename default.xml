@@ -6,7 +6,7 @@
           fetch="ssh://git@github.com/archlinux-ansible"
           revision="master" />
 
-  <default remote="ansible" sync-j="11"/>
+  <default remote="ansible" sync-j="12"/>
 
   <project path="." name="ansible-site"/>
   <project path="roles/chezmoi" name="ansible-arch_chezmoi"/>
@@ -14,6 +14,7 @@
   <project path="roles/gitconfig" name="ansible-gitconfig"/>
   <project path="roles/group_membership" name="ansible-group_membership"/>
   <project path="roles/nvim" name="ansible-arch_nvim"/>
+  <project path="roles/oomox" name="ansible-arch_oomox"/>
   <project path="roles/packages" name="ansible-arch_packages"/>
   <project path="roles/plymouth" name="ansible-plymouth"/>
   <project path="roles/sddm" name="ansible-arch_sddm"/>
